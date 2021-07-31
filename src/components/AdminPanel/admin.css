@@ -1,0 +1,113 @@
+
+.admin-section-container {
+    min-height: 70vh;
+    max-height: 80vh ;
+    background-color: #adc9ff; 
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: scroll;
+    padding: 0;
+}
+.user-card{
+    min-height: 10rem;
+    background-color: #7588af;
+    border-radius: 10px;
+}
+
+.user-card-img{
+    height: 100%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+.user-card-button{
+    height: 2.3rem;
+    margin: 0 .5rem;
+    border-radius:20px ;
+}
+
+.modificar-usuario-label{
+    width: 10rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.admin-section-title{
+    margin: 2rem;
+}
+
+.separation-line{
+    background-color: #5c5d5f;
+    width: 100%;
+    height: 1.5px;
+    margin: 0.8rem;
+}
+
+.modificar-usuario-controles{
+    /* background-color: aquamarine; */
+}
+.admin-navbar-section-products{
+    background-color: #343a40;
+    color: antiquewhite;
+    min-height: 2.5rem;
+    cursor: pointer;
+    /* position: sticky;
+    top: 0;
+    left: 0;
+    right: 0; */
+}
+.crear-producto-section{
+    min-height: 70vh;
+    /* background-color: rgb(117, 178, 189); */
+}
+.crear-producto-form label{
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.crer-producto-input{
+    height: 1.8rem;
+    width: 100%;
+    padding: 0 1rem;
+
+}
+
+.crer-producto-input::placeholder{
+    color: #343a40;
+}
+
+.crear-producto-alert{
+    width: 100%;
+}
+
+.modificar-producto-row{
+    /* height : 2rem; 
+    display: inline-block;
+    overflow: auto; */
+}
+
+.modificar-producto-th{
+    max-width:12rem;
+}
+.modificar-producto-td{
+    height: 4rem;
+    max-width:15rem;
+}
+.modificar-producto-td input {
+    width: -webkit-fill-available;
+}
+
+.table-responsive {
+    overflow-x: unset;
+}
+
+/* background-color: #59aebb; */
+
+
+/* .crear-producto-alert{
+    position: absolute;
+    z-index: 9;
+    height: 10rem;
+    width: 30rem;
+    top: 0;
+} */
